@@ -1,0 +1,110 @@
+/* Style global */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fef6e4; /* Fond beige pastel */
+    color: #4a4a4a; /* Texte gris doux */
+  }
+  
+  /* Header */
+  header {
+    background-color: #f8c4d4; /* Rose pastel doux */
+    color: #3b3b3b; /* Texte gris foncé */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* Section Message */
+  #message, #reconfort {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc doux */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f0e5cf; /* Bordure légère */
+  }
+  
+  #message h2, #reconfort h2 {
+    color: #d47fa6; /* Rose doux pour les titres */
+    margin-bottom: 15px;
+  }
+  
+  /* Section Photos */
+  #photos {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc doux */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f0e5cf; /* Bordure légère */
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border: 2px solid #f8c4d4; /* Bordure rose pastel */
+  }
+  
+  figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #6c6c6c; /* Texte gris clair */
+    margin-top: 8px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8c4d4; /* Rose pastel doux */
+    color: #4a4a4a; /* Texte gris doux */
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
+  /* Liens (si nécessaire) */
+  a {
+    color: #d47fa6; /* Rose doux */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  
+    header h1 {
+      font-size: 2em;
+    }
+  
+    header p {
+      font-size: 1em;
+    }
+  }
+  
